@@ -4,7 +4,7 @@
 
 This is a fork of the CapRover One Click Apps Repo that adds Weaviate Vector Database, a fully open source and purpose built vector database to handle AI workloads, and Ollama, a tool to help you run language models locally.
 
-![Weaviate_And_Ollama](public/v4/logos/weaviate_and_ollama.png)
+![CapRover, Weaviate, and Ollama](public/v4/logos/caprover_weaviate_and_ollama.png)
 
 ## Repo for CapRover One Click Apps
 
