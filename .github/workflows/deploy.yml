@@ -12,6 +12,4 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: npm ci && npm run publish
-        env:
-          GITHUB_PERSONAL_TOKEN: ${{secrets.GITHUB_PERSONAL_TOKEN}}
+      - run: npm ci && npm run formatter-write && npm run build
