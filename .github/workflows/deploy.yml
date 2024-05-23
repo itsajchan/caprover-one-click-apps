@@ -17,4 +17,11 @@ jobs:
           node-version: 14
       - run: npm ci && npm run formatter-write && npm run build
 
-
+  
+      - name: Upload artifact
+        id: upload-artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Caprover One Click
+          path: "./dist"
+          if-no-files-found: error
