@@ -10,8 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
-      - uses: actions/upload-pages-artifact@v3.0.1
-
 
         with:
           node-version: 14
